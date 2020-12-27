@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceRoot": "./src/",
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+
+    "module": "es6",
+    "target": "es5",
+
+    "importHelpers": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "esModuleInterop": true,
+
+    "lib": [
+      "es5",
+      "es2015",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dev"
+  ]
+}

@@ -1,0 +1,6 @@
+.idea/
+dist/
+public/res/bundle/
+node_modules/
+.env
+coverage/
